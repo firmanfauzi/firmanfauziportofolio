@@ -1,0 +1,166 @@
+body{
+	background-image: url('images/backgroundfont.png');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 400px;
+
+}
+/*style untuk menu*/
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border-radius: 10px;
+	border-style: solid;
+	top: 0.5em;
+	width: 98%;
+	position: ;
+	font-family: comic sans ms;
+}
+
+ul.topnav li{
+	float: left;
+		
+}
+
+ul.topnav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px;
+	font-size: 16px;
+	
+}
+ul.topnav li a:hover:not(.active){
+	background-color: #67809F;
+}
+ul.topnav li a:active{
+	
+	color: #E9D460;
+}
+/*ul.topnav .nama{
+	background-color: white;
+	color: #333;
+	text-align: center;
+}*/
+	
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li, ul.topnav .nama {float: none;}}
+
+/*style untuk biodata*/
+.judulhalaman{
+	padding-top: 0px;
+	padding-bottom: 2,5px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 20px;
+	text-decoration: none;
+}
+.judulhalaman hr{
+	text-align: center;
+	width: 80%;
+}
+.isibiodata{
+	font-family: comic sans ms;
+	font-size: 20px;
+}
+.fotobiodata{
+	text-align: center;
+}
+.fotobiodata img{
+	height: 180px;
+	width: 150px;
+	border: 5px solid black;
+	border-radius: 15px;
+}
+/*style untuk contact*/
+.contact-home{
+	text-align: center;
+	width: 100%;
+	background-color: #D2D7D3;
+	float: bottom;
+}
+.contact{
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 1px;
+	width:auto;
+    height: auto;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+.contact p{
+	width: auto;
+}
+.kalimatpembuka {
+	height: auto;
+}
+.kalimatpembuka h1 {
+	text-align: center;
+	color: #2574A9;
+	font-family: comic sans ms;
+	font-size: 40px;
+}
+#tulisanbismillah{
+	text-align: center;
+	padding-top: 1px;
+}
+#tulisanbismillah img{
+	width: 50%;
+	height:100px;
+	
+}
+.kalimatpembuka2{
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 80px;
+	text-align: justify;
+	word-spacing: 5px;
+	height: auto;
+	padding-top: 5px;
+}
+#isikalimatpembuka2{
+	font-size: 34.5px;
+	font-family: comic sans ms;
+	margin: 20px;
+}
+.sertifikat{
+	padding: 20px;
+}
+.fotosertifikat{
+	float: left;
+	
+}
+
+.fotosertifikat img {
+	margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+    height: 180px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    padding: 5px;
+
+}
+
+.fotosertifikat img:hover {
+    width: 500px;
+    height: 500px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+.desc{
+	padding: 0px;
+    text-align: center;
+    width: 180px;
+}
