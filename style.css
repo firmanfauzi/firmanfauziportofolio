@@ -1,5 +1,5 @@
 body{
-	background-image: url('/images/backgroundfont.PNG');
+	background-image: url('images/backgroundfont.jpg');
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 	background-position: center;
@@ -19,6 +19,7 @@ ul.topnav {
 	width: 98%;
 	position: ;
 	font-family: comic sans ms;
+	
 }
 
 ul.topnav li{
@@ -158,6 +159,7 @@ ul.topnav li a:active{
     height: 500px;
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
+    position: absolute;
 }
 .desc{
 	padding: 0px;
